@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-size: 24px; 
+    font-family: Handjet, sans-serif;
+}
+
+.gif-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.gif-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.names-list {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.names-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.names-list li {
+    font-size: 24px; 
+    margin: 10px 0;
+}
